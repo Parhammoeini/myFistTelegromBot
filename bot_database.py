@@ -1,7 +1,6 @@
 import sqlite3
 import configparser
 import telethon
-from datetime import datetime
 
 
 conn =sqlite3.connect('music.db')
