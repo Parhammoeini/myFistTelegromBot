@@ -19,17 +19,6 @@ def print_data():
     data=cursor.fetchall()
     mydict.update(data)
     return mydict
-def select(address):
-    b = False
-    cursor.execute('SELECT *  FROM songz')
-    list1 = []
-    data=cursor.fetchall()
-    list1.append(data)
-    for item in list1 :
-        if item == address:
-            return True
-        return False
-            
 def all_v():
     cursor.execute('SELECT *  FROM songz')
     info =cursor.fetchall()
