@@ -71,11 +71,7 @@ async def bluh(message : types.Message):
     await form_song_name.song_name.set()
     await message.reply("please send the name of the song : ")
 
-#def song_sender(name,address):
- #   @dp.message_handler(commands=[name])
-  #  async def send_music2(message: types.Message):
-   #     await message.reply_audio(address,"@freakysongz")
-    
+
 def song_sender(name):
     @dp.message_handler(commands=[name])
     async def send_music2(message: types.Message):
