@@ -9,11 +9,8 @@ from bot_database import all_k,all_v,insert_data,print_data,add_song
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters.state import State, StatesGroup
-import logging
 from telegram import ReplyKeyboardMarkup, ReplyKeyboardRemove, Update
 bot = Bot(token='your token')
-
-music_dic = {}
 
 storage= MemoryStorage()
 dp = Dispatcher(bot,storage=storage)
