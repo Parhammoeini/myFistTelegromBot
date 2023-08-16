@@ -1,2 +1,3 @@
 # myFistTelegromBot
-## subtitle -this is a music sender telegrom bot
+## this is a music sender telegrom bot
+I recommend using that 
