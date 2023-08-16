@@ -11,7 +11,7 @@ from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters.state import State, StatesGroup
 import logging
 from telegram import ReplyKeyboardMarkup, ReplyKeyboardRemove, Update
-bot = Bot(token='6433980783:AAHBV1uD7nIpAIvPYfrxLYAtZAEvIRWCjj0')
+bot = Bot(token='your token')
 
 music_dic = {}
 
